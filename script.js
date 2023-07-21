@@ -16,7 +16,7 @@ function dateAndTime(){
 
 
 	// method-2
-const time = currentTime.toLocalTimeString();
+const time = currentTime.toLocaleTimeString();
   document.getElementById("timer").textContent = `${day}/${month}/${year}, ${time}`;
 	
 
